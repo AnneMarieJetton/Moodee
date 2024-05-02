@@ -5,7 +5,7 @@
 For more in depth info, see [Node Version Setup](#node-version-setup)
 
 1. `cd` into either the `frontend/` or `backend/` of the project and run `npm install`
-2. run `npm start` to start the project
+2. run `npm run dev` to start the project, first in the backend, then in the frontend
 
 # Node Version Setup
 This project is currently set to use `node 21.11.1`
