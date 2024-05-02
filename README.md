@@ -59,6 +59,7 @@ You can use `npm` version `9.3.1` to work with the project and older versions of
   
 ## MacOS & Linux Setup Info
 - install `asdf` through [`homebrew`](https://docs.brew.sh/Installation) using `brew install asdf`
+> You'll want to update your `.zshrc` file to contain a pointer to the correct node version such as `export PATH="$HOME/.asdf/shims:$PATH"` but make sure it works for your particular system. This is the setup for a macbook on intel.
 - install the needed `nodejs` version via the root of the project with `asdf install`.
 > This will read the `.tool-versions` file and install the appropriate version and set it for use
 - if `nodejs` is not an available plugin use `asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git` to add it in the command line. Then run  `asdf install` again.
