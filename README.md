@@ -8,7 +8,7 @@ For more in depth info, see [Node Version Setup](#node-version-setup)
 2. run `npm run dev` to start the project, first in the backend, then in the frontend
 
 # Node Version Setup
-This project is currently set to use `node 21.11.1`
+This project is currently set to use `node 20.11.1`
 
 You can use `npm` version `9.3.1` to work with the project and older versions of nodejs if you need them on your system. Newer versions of npm are fine if there is no need for older nodejs versions elsewhere on your system.
 
