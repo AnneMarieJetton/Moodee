@@ -1,6 +1,9 @@
 # Moodee
 // TODO Explanation of Project
 
+## Design File
+The Figma design file can be found [here](https://www.figma.com/design/5WOZnhoqN0xe2P2VnCp1St/Moodee?node-id=0%3A1&t=p3JQJYMTtNuD2NJ9-1)
+
 # Getting Started
 For more in depth info, see [Node Version Setup](#node-version-setup)
 
