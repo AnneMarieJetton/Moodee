@@ -13,7 +13,7 @@ const App = () => {
       <Route path='/moods/create' element={<CreateMood />} />
       <Route path='/moods/details/:id' element={<ShowMood />} />
       <Route path='/moods/edit/:id' element={<EditMood />} />
-      <Route path='/moods/delete/:id' element={<DeleteMood />} />j
+      <Route path='/moods/delete/:id' element={<DeleteMood />} />
     </Routes>
   )
 }

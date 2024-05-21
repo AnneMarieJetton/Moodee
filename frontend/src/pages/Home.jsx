@@ -8,6 +8,8 @@ import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import MoodsCard from '../components/home/MoodsCard';
 import MoodsTable from '../components/home/MoodsTable';
 
+import '../styles/Home.css';
+
 const Home = () => {
     const [rating, setRating] = useState('');
     const [emotion, setEmotion] = useState('');
@@ -32,23 +34,36 @@ const Home = () => {
     }, []);
 
     return (
-        <div className='p-4'>
-            <div className = 'flex justify-center items-center gap-x-4'>
-                <button className = 'bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick = {() => setShowType('table')}>
-                    Table
-                </button>
-                <button className = 'bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick = {() => setShowType('card')}>
-                    Card
-                </button>
-            </div>
+        //skeleton code from setup
 
-            <div className='flex justify-between items-center'>
-                <h1 className='text-3xl my-8'>Moods List</h1>
-                <Link to='/moods/create'>
-                    <MdOutlineAddBox className='text-sky-800 text-4xl' />
-                </Link>
+        // <div className='p-4'>
+        //     <div className = 'flex justify-center items-center gap-x-4'>
+        //         <button className = 'bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick = {() => setShowType('table')}>
+        //             Table
+        //         </button>
+        //         <button className = 'bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg' onClick = {() => setShowType('card')}>
+        //             Card
+        //         </button>
+        //     </div>
+
+        //     <div className='flex justify-between items-center'>
+        //         <h1 className='text-3xl my-8'>Moods List</h1>
+        //         <Link to='/moods/create'>
+        //             <MdOutlineAddBox className='text-sky-800 text-4xl' />
+        //         </Link>
+        //     </div>
+        //     {loading ? <Spinner /> : showType === 'table' ? ( <MoodsTable moods = {moods} /> ) : ( <MoodsCard moods = {moods} /> )}
+        // </div>
+
+        <div className = 'Home'>
+            <div className = 'HomeCard'>
+                <span className='HomeCardText1'>MOODEE</span>
+                <span className='HomeCardText2'>A Daily Mood Quiz</span>
             </div>
-            {loading ? <Spinner /> : showType === 'table' ? ( <MoodsTable moods = {moods} /> ) : ( <MoodsCard moods = {moods} /> )}
+            <div className = 'HomeButtons'>
+                <button className = 'HomeButton'>See The Stats</button>
+                <button className = 'HomeButton'>Take The Quiz</button>
+            </div>
         </div>
     );
 };
