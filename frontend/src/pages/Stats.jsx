@@ -1,9 +1,22 @@
+import NavBar from '../components/Stats/NavBar'
+import QuestionNavBar from '../components/Stats/QuestionNavBar'
+import SquareGraph from '../components/Stats/SquareGraph'
+import BarGraph from '../components/Stats/BarGraph'
+import LineGraph from '../components/Stats/LineGraph'
+import PieGraph from '../components/Stats/PieGraph'
+import WordGraph from '../components/Stats/WordGraph'
+
 const Stats = () => {
 
     return (
-
         <div className = 'Stats'>
-            stats page
+            <NavBar />
+            <QuestionNavBar />
+            <SquareGraph />
+            <BarGraph />
+            <LineGraph />
+            <PieGraph />
+            <WordGraph />
         </div>
     );
 };
