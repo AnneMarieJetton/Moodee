@@ -61,8 +61,8 @@ const Home = () => {
                 <span className='HomeCardText2'>A Daily Mood Quiz</span>
             </div>
             <div className = 'HomeButtons'>
-                <button className = 'HomeButton'>See The Stats</button>
-                <button className = 'HomeButton'>Take The Quiz</button>
+                <Link to = '/stats' className = 'HomeButton'>See The Stats</Link>
+                <Link to = '/quiz' className = 'HomeButton'>Take The Quiz</Link>
             </div>
         </div>
     );
