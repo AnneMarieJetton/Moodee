@@ -1,3 +1,5 @@
+import '../../styles/Graphs.css';
+
 const WordGraph = () => {
 
     return (

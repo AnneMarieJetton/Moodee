@@ -6,6 +6,8 @@ import LineGraph from '../components/Stats/LineGraph'
 import PieGraph from '../components/Stats/PieGraph'
 import WordGraph from '../components/Stats/WordGraph'
 
+import '../styles/Stats.css';
+
 const Stats = () => {
 
     return (

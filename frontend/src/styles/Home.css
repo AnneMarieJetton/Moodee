@@ -5,9 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+    background: linear-gradient(to bottom right, rgb(255, 62, 62), rgb(255, 187, 59), rgb(255, 255, 62), rgb(61, 255, 61), rgb(60, 60, 255), rgb(173, 58, 255), violet);
     background-size: cover;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .HomeCard {
@@ -21,7 +22,6 @@
     border-radius: 10px; 
     background-color: white;
     box-shadow: 6px 6px 6px rgba(255, 255, 255, 0.5);
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
