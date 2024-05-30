@@ -85,9 +85,3 @@
     -2px -2px 4px black;
   /* Bottom left shadow */
 }
-
-/* QuestionOne.jsx */
-.QuestionOne {
-  background-color: white;
-  display: flex;
-}

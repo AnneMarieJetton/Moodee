@@ -6,7 +6,7 @@ import ProgressBar from '../components/Quiz/ProgressBar';
 import OuterQuestionContainer from '../components/Quiz/OuterQuestion';
 import SkipButton from '../components/Quiz/SkipButton';
     // Questions
-import QuestionOne from '../components/Quiz/QuestionOne';
+import QuestionOne from '../components/Quiz/Questions/QuestionOne';
 
 // Styling
 import '../styles/Quiz.css';
