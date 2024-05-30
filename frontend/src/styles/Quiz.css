@@ -57,3 +57,37 @@
     -1px 1px 4px white;
   /* Bottom left shadow */
 }
+
+/* OuterQuestion.jsx */
+.OuterQuestionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+}
+
+.OuterQuestion {
+  display: flex;
+  margin: 2%;
+  background-color: white;
+  width: 75vw;
+  height: 400px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    2px 2px 4px black,
+    /* Bottom right shadow */
+    -2px -2px 4px black,
+    /* Top left shadow */
+    2px 2px 4px black,
+    /* Top right shadow */
+    -2px -2px 4px black;
+  /* Bottom left shadow */
+}
+
+/* QuestionOne.jsx */
+.QuestionOne {
+  background-color: white;
+  display: flex;
+}

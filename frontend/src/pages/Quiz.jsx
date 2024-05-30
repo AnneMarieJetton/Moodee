@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 
 // Custom Components
 import ProgressBar from '../components/Quiz/ProgressBar';
+import OuterQuestionContainer from '../components/Quiz/OuterQuestion';
 import SkipButton from '../components/Quiz/SkipButton';
+    // Questions
+import QuestionOne from '../components/Quiz/QuestionOne';
 
 // Styling
 import '../styles/Quiz.css';
@@ -14,7 +17,7 @@ const Quiz = () => {
   return (
     <div className='Quiz'>
       <ProgressBar currentQuestion={currentQuestion} />
-      {/* Outer Question Component (that takes in a question component) */}
+      <OuterQuestionContainer QuestionComponent={QuestionOne} />
       <SkipButton />
     </div>
   );
