@@ -1,0 +1,15 @@
+.QuestionNavBar{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    border-bottom: 1px solid black;
+}
+
+.QuestionNavBarLinks{
+
+}
+
+.QuestionNavBarLink{
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -13,7 +13,7 @@ const NavBar = () => {
                 <Link to = '/' className = 'NavBarLink'>Today</Link>
                 <Link to = '/' className = 'NavBarLink'>Week</Link>
                 <Link to = '/' className = 'NavBarLink'>Month</Link>
-                <Link to = '/' className = 'NavBarLink'>year</Link>
+                <Link to = '/' className = 'NavBarLink'>Year</Link>
             </div>
         </div>
     );
