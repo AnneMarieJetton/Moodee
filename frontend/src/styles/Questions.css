@@ -1,7 +1,42 @@
+/* General Questions CSS */
+.QuestionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* background-color: blue; */
+  /* margin-top: 5%; */
+}
+
 /* QuestionOne.jsx */
 .QuestionOne {
   background-color: white;
   display: flex;
+  width: 97%;
+  height: 97%;
+  border-radius: 25px;
+  flex-direction: column;
+}
+.EmotionsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-auto-rows: minmax(50px, auto); /* Minimum height for rows */
+  gap: 10px;
+  padding: 10px;
+}
+.Emotion {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 800px) {
+  .EmotionsContainer {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
 
 /* QuestionTwo.jsx */

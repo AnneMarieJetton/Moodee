@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 // Styling
 import '../../styles/Quiz.css';
 
-const Button = ({ buttonTitle }) => {
+const Button = ({ buttonTitle, onClick }) => {
   return (
-    <div className="Button">
+    <div className="Button" onClick={onClick}>
       {buttonTitle}
     </div>
   )
@@ -15,6 +15,7 @@ const Button = ({ buttonTitle }) => {
 
 Button.propTypes = {
   buttonTitle: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
 }
 
 export default Button;

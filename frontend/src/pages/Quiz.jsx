@@ -38,6 +38,15 @@ const Quiz = () => {
     }
   };
 
+  const onSkip = () => {
+    onSubmit()
+  }
+
+  const onSubmit = () => {
+    // code to submit things
+    console.log("SUBMIT!");
+  } 
+  
   return (
     <div className='Quiz'>
       <ProgressBar currentQuestion={currentQuestion} />
@@ -48,12 +57,21 @@ const Quiz = () => {
         />
         { currentQuestion === 4 ? (
             <div className='ButtonsGrouped'>
-                <Button buttonTitle='Submit'/>
-                <Button buttonTitle='Skip' />
+                <Button 
+                    buttonTitle='Skip' 
+                    onClick={onSkip}
+                />
+                <Button 
+                    buttonTitle='Submit' 
+                    onClick={onSubmit}
+                />
             </div>
         ) : (
              <div className='SingleButton'>
-                <Button buttonTitle='Skip' />
+                <Button 
+                    buttonTitle='Skip' 
+                    onClick={goToNextQuestion}
+                />
              </div>
         )}
      

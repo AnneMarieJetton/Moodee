@@ -12,11 +12,11 @@ import '../../styles/Quiz.css';
 const OuterQuestionContainer = ({ QuestionComponent, onNext, onPrevious }) => {
   return (
     <div className='OuterQuestionContainer'>
-      <FaArrowAltCircleLeft size={75} onClick={onPrevious}/>
+      <FaArrowAltCircleLeft size={75} onClick={onPrevious} style={{ cursor: 'pointer' }}/>
       <div className='OuterQuestion'>
         <QuestionComponent />
       </div>
-      <FaArrowAltCircleRight size={75} onClick={onNext}/>
+      <FaArrowAltCircleRight size={75} onClick={onNext} style={{ cursor: 'pointer' }}/>
     </div>
   );
 }
