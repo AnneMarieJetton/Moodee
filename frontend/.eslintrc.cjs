@@ -17,5 +17,12 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-unused-vars': [
+      'warn',
+      {
+        varsIgnorePattern: 'React', // Ignore React import as unused variable
+        argsIgnorePattern: '^_',   // Ignore function arguments that start with _
+      },
+    ],
   },
 }
