@@ -3,19 +3,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
   flex: 1;
-  /* background-color: blue; */
-  /* margin-top: 5%; */
+  padding-bottom: 25px;
 }
 
 /* QuestionOne.jsx */
 .QuestionOne {
-  background-color: white;
   display: flex;
-  width: 97%;
-  height: 97%;
+  width: 98%;
+  height: 98%;
   border-radius: 25px;
   flex-direction: column;
+  flex: 1;
 }
 .EmotionsContainer {
   display: grid;
@@ -23,6 +25,7 @@
   grid-auto-rows: minmax(50px, auto); /* Minimum height for rows */
   gap: 10px;
   padding: 10px;
+  overflow-y: auto;
 }
 .Emotion {
   padding: 10px;
@@ -30,6 +33,7 @@
   border: 1px solid #000;
   border-radius: 15px;
   text-align: center;
+  font-size: 20px;
 }
 
 /* Media query for smaller screens */

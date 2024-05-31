@@ -5,12 +5,7 @@ import React, { useState } from 'react';
 import ProgressBar from '../components/Quiz/ProgressBar';
 import OuterQuestionContainer from '../components/Quiz/OuterQuestion';
 import Button from '../components/Quiz/Button';
-    // Questions
-import QuestionOne from '../components/Quiz/Questions/QuestionOne';
-import QuestionTwo from '../components/Quiz/Questions/QuestionTwo';
-import QuestionThree from '../components/Quiz/Questions/QuestionThree';
-import QuestionFour from '../components/Quiz/Questions/QuestionFour';
-import QuestionFive from '../components/Quiz/Questions/QuestionFive';
+import { QuestionOne, QuestionTwo, QuestionThree, QuestionFour, QuestionFive } from '../components/Quiz/Questions';
 
 // Styling
 import '../styles/Quiz.css';

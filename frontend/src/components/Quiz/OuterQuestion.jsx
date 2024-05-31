@@ -6,7 +6,6 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
 // Styling
-
 import '../../styles/Quiz.css';
 
 const OuterQuestionContainer = ({ QuestionComponent, onNext, onPrevious }) => {

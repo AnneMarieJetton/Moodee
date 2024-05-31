@@ -31,7 +31,7 @@
   height: 1.5%;
   justify-content: space-between;
   align-content: flex-start;
-  margin-top: 5%;
+  margin-top: 50px;
   padding: 0% -2%;
 }
 
@@ -90,7 +90,7 @@
   margin: 2%;
   background-color: white;
   width: 75vw;
-  height: 400px;
+  min-height: 425px;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
